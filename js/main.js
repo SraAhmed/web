@@ -4,9 +4,9 @@
 // const section = document.getElementById("sec");
 // const div = document.getElementById("mydiv");
 // const title = document.createElement("h1");
-// // header.remove(); حذف العناصر
+// // header.remove(); 
 
-// //section.prepend(title); //تم شرحه في الاكسل
+// //section.prepend(title); 
 // // div.prepend(title);
 
 // // title.classList.add("mb");
