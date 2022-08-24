@@ -1,0 +1,267 @@
+* {
+  margin: 0;
+
+  font-family: sans-serif;
+}
+.myHeader{
+  width: 100%;
+  height: 70px;
+  background-color: #fff;
+  background-size: cover;
+  background-position: center;
+  border-top: 6px solid #4e0414;
+ 
+  border-radius: 10px 0 0;
+}
+.navbar {
+  width: 85%;
+  margin: auto;
+  padding: 3px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  position: relative;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: rgb(236, 141, 141);
+  text-transform: uppercase;
+}
+#mode{
+  color: rgb(236, 141, 141);
+}
+.navbar ul li::after {
+  content: "";
+  height: 3px;
+  width: 0;
+  background: #772626;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  transition: 0.5s;
+}
+.navbar ul li:hover::after {
+  width: 100%;
+}
+
+li {
+  list-style-type: none;
+  font-size: 18px;
+}
+
+h1 {
+  text-align: center;
+
+
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  color: rgb(37 11 11);
+}
+
+section {
+  margin-bottom: 100px;
+  box-shadow: 5px 5px 25px rgb(179, 172, 172);
+
+  width: 97%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 13px;
+
+  padding: 23px  0;
+}
+
+.left-section,
+.right-section {
+  width: 49%;
+
+  text-align: center;
+  margin-top: 60px;
+}
+
+.left-section h3 {
+  font-size: 26px;
+  margin: 20px 0;
+}
+
+.left-section p {
+  font-size: 20px;
+  margin: 25px 0;
+}
+
+
+.btn-group {
+  display: flex;
+  width: 100%;
+  position: inherit;
+}
+.btn-group .signup-btn {
+  cursor: pointer;
+  display: block;
+  color: #fff;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 700;
+  border-radius: 32px;
+  background-color: #60202e;
+  padding: 15px 50px;
+}
+.btn-group .play-btn {
+  margin-left: 40px;
+  display: inline-flex;
+}
+.btn-group span {
+  color: #000;
+  font-size: 15px;
+  font-weight: 700;
+  margin: auto 20px;
+  cursor: pointer;
+}
+.play-btn-inner {
+  height: 50px;
+  width: 50px;
+  border: 2px solid transparent;
+  border-radius: 50%;
+  background-color: #000;
+}
+.play-btn-inner i {
+  padding: 15px 19px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.social-icons {
+  position:absolute;
+  right: 30px;
+  top: 140px;
+}
+.social-icons ul li {
+  margin-top: 5px;
+  text-align: center;
+}
+.social-icons ul li a {
+  color: #000;
+  padding: 10px;
+  display: block;
+  font-size: 29px;
+}
+.social-icons ul li a:hover {
+  background-color: #e9e2e26f;
+  color: rgb(214, 147, 147);
+}
+
+.youtube {
+  background-color: rgb(255, 62, 62);
+}
+
+.my-img {
+  border-radius: 50%;
+  width: 150px;
+
+  border-right: 2px solid #ff8a00;
+  border-left: 2px solid #ff8a00;
+  border-bottom: 2px solid #e52e71;
+  border-top: 2px solid #e52e71;
+}
+
+article h5 {
+  font-size: 39px;
+  font-weight: 500;
+  font-family: "Sacramento", cursive;
+  margin-top: 10px;
+}
+
+.para {
+  font-size: 20px;
+}
+
+.flex {
+  display: flex;
+
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.flex-pro{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.mycard{
+margin-left: auto;
+margin-right: auto;
+margin-top: 50px;
+border-radius: 5px;
+background-color: rgb(242, 241, 241);
+padding : 8px 8px 15px;
+}
+.js-buy{
+color : Black;
+background-color : gray;
+border-radius :17px;
+padding : 8px 8px;
+}
+.container{
+  background-color: rgb(48, 62, 95);
+  margin-top: 50px;
+border: 2px solid;
+border-radius: 12px;
+width: 60%;
+text-align: center;
+padding: 20px 0;
+
+}
+.container p{
+  font-size: 20px;
+color: #eee;
+}
+.bigcon{
+  background-color: rgb(7, 24, 32);
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  display: none;
+  
+}
+
+footer {
+  text-align: center;
+}
+
+.design {
+  background-color: #2e191e;
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+margin-bottom: 0;
+  border-top-left-radius: 35px;
+  border-top-right-radius: 35px;
+}
+
+.follow {
+  box-shadow: 0 5px 30px 0 rgb(0 0 0 / 25%);
+  border-radius: 10px;
+  padding: 16px 0;
+  text-align: center;
+  margin: 0 auto 10px;
+  border-top: 6px solid #4e0414;
+
+  opacity: 0.9;
+  width: 99%;
+}
+
+
+
+.follow a:hover {
+  padding: 5px 12px;
+  border-radius: 10px;
+  background-color: rgb(247, 237, 238) !important;
+  color: #fff;
+}
